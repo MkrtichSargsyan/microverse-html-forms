@@ -4,98 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="./style/app.css">
-    <title>Mint.com Signup Page - Html Forms</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Intuit</title>
 </head>
 
 <body>
-    <div class="container">
 
-        <!-- Header -->
+    <div class="container">
+        <!-- header -->
         <header>
-            <div class="sign-in">
-                <div class="sign-in-details">
-                    <h3 class="sign-in-title">Already have an Intuit account?</h3>
-                    <a href="#" class="sign-in-sub-title">I forgot my User ID or Password</a>
+            <div class="sign-in-header">
+                <div>
+                    <h3>Already have an Intuit account?</h3>
+                    <a href="#">I forgot my User ID or Password</a>
                 </div>
-                <button class="sign-in-button"><i class="fas fa-lock"></i> Sign in</button>
+                <button class="sign-in-button" type="submit"><i class="fas fa-lock"></i> Sign-in</button>
             </div>
         </header>
 
-        <!-- Main Form -->
+        <!-- main -->
         <main>
-            <div class="showcase-logos">
-                <a href="#">
-                    <img src="./img/showcase-logo2.png" alt="Company logos">
-                </a>
-            </div>
+            <div class="main-container">
 
-            <div class="showcase-form-container">
-
-                <h1 class="showcase-form-title">
-                    Create an Intuit account
-                </h1>
-                <p class="showcase-form-subtitle">
-                    One account for everything Intuit, including Mint.
-                </p>
-                <a class="showcase-form-learn-more" href="#">Learn more</a>
-
-                <form class="showcase-form" action="#">
-                    <div class="form-control">
-                        <label for="email">Email address </label>
-                        <input type="email" name="email" id="email">
-                    </div>
-
-                    <div class="form-control ">
-                        <label for="phone">Phone (recommended) </label>
-                        <input type="tel" name="phone" id="phone">
-                        <span class="sub-label">Standard call, messaging or data rates may apply.</span>
-                    </div>
-
-                    <div class="form-control">
-                        <label for="password">Password </label>
-                        <input type="password" name="password" id="password">
-                        <ul class="showcase-form-password-errors">
-                            <li>X Use 8 or more characters</li>
-                            <li>X Use upper and lower case letters (e.g. Aa)</li>
-                            <li>X Use a number (e.g. 1234)</li>
-                            <li>X Use a symbol (e.g. !@#$)</li>
-                        </ul>
-                    </div>
-
-                    <button type="submit"><i class="fas fa-lock"></i> Create Account</button>
-
-                </form>
-
-                <p class="showcase-form-terms">
-                    By clicking Create account, you agree to our
-                    <br>
-                    <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy
-                        <br>
-                        Statement
-                    </a>
-                    .
-                </p>
-
-                <div class="showcase-form-footer">
-                    <p>Invisible reCAPTCHA by <a href="">Google Privacy Policy</a> and <a href="">Terms of Use.</a></p>
+                <div class="logos">
+                    <a href="#"><img class="company-logo" src="img/logo-intuit.png" alt="Intuit Company Logo"></a>
+                    <ul class="partners-logo">
+                        <li><a href="#"><img src="img/mint.png" alt="Partner logo"> mint</a></li>
+                        <li><a href="#"><img src="img/qb_thumb.png" alt="Partner logo"> quickbook</a></li>
+                        <li><a href="#"><img src="img/turbotax.png" alt="Partner logo"> turbotax</a></li>
+                    </ul>
                 </div>
+
+                <div class="main-form">
+
+                    <div class="main-form-header">
+                        <h1 class="account-form-title">Create an Intuit account</h1>
+                        <p class="account-form-subtitle">One account for everything Intuit, including Mint.</p>
+                        <a href="#" class="learn-more">Learn more</a>
+                    </div>
+
+                    <form action="submit" class="account-form">
+                        <div class="form-control">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name=email>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="tel-number">Phone (recommended)</label>
+                            <input type="tel" id="tel-number" name="tel-number">
+                            <span class="tel-info">Standard call, messaging or data rates may apply.</span>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name=password>
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+
+                        <button type="submit" class="submit-form-button">
+                            Create Account
+                            <i class="fas fa-lock"></i>
+                        </button>
+
+                    </form>
+
+                    <p class="account-terms">By clicking Create account, you agree to our<br>
+                        <a href="#">Terms</a> and have read and acknowledge our <a href="">Privacy<br> Statement.</a>
+                    </p>
+
+                    <div class="main-form-footer">
+                        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+                                Use.</a></p>
+                    </div>
+                </div>
+
             </div>
         </main>
 
-        <!-- Footer -->
+        <!-- footer -->
+
         <footer>
-            <ul class="footer-links">
-                <li class="footer-link"><a href="">Legal</a></li>
-                <li class="footer-link"><a href="">Privacy</a></li>
-                <li class="footer-link"><a href="">Security</a></li>
-            </ul>
-            <p class="footer-copyright">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
-                ProConnect and Mint are
-                registered trademarks of Intuit Inc.
-                Terms and conditions, features, support, pricing, and service options subject to change without notice.
-            </p>
+
+            <div class="footer-container">
+
+                <ul>
+                    <li><a href="#">Legal</a> </li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+
+                <p class="copyright-text">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+                    TurboTax, ProConnect and Mint are
+                    registered trademarks of Intuit Inc.<br>
+                    Terms and conditions, features, support, pricing, and service options subject to change without
+                    notice.
+                </p>
+
+            </div>
+
         </footer>
 
     </div>
