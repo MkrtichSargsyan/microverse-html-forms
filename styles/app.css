@@ -1,0 +1,206 @@
+/* -------reset----------- */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/* --------global------------ */
+
+
+body {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #eceef1;
+  color: #4c4c4c;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 24px;
+  background-color: #0077c5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+/* ---------main---------------- */
+
+.container {
+  padding: 10px 30px;
+}
+
+
+/* ---------------header-------------- */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+header .sign-in-header {
+  display: flex;
+  align-items: center;
+}
+
+header .sign-in-header h3,
+header .sign-in-header a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+header .sign-in-header .sign-in-button {
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 14px;
+}
+
+
+/* ----------main---------------- */
+
+main .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+main .main-container img{
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+main .main-container .main-form {
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+
+/* --------------------------form-header--------------------------------- */
+
+main .main-container .main-form .main-form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .main-container .main-form .main-form-header .account-form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+main .main-container .main-form .main-form-header .account-form-subtitle {
+  font-size: 14px;
+}
+
+main .main-container .main-form .main-form-header .learn-more {
+  font-size: 12px;
+}
+
+/* ----------------account form---------------------- */
+
+main .main-container .account-form .form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+main .main-container .account-form .form-control:last-of-type {
+  position: relative;
+}
+
+main .main-container .account-form .form-control .fas{
+  position: absolute;
+  top: 30px;
+  left: 285px;
+}
+
+main .main-container .account-form .form-control input{
+  outline: none;
+  border:1px solid #C1C5C8;
+  height: 34px;
+  min-width: 315px;
+  color: black;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+main .main-container .account-form .form-control label{
+  color: #404040;
+}
+
+main .main-container .account-form .form-control .tel-info{
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+main .main-container .account-form .submit-form-button{
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 14px 0;
+  margin-bottom: 30px;
+}
+
+main .main-container .main-form .account-terms{
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  line-height: 1.8;
+  text-align: center;
+}
+
+
+/* -------------account-fomr-footer------------------------ */
+
+main .main-container .main-form .main-form-footer{
+  background-color: #eceef1;
+  text-align: center;
+  width: calc(100% + 60px);
+  font-size: 10px;
+  padding: 20px;;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  margin-left: -30px;
+}
+
+
+/* -------------footer ---------------------- */
+
+footer .footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+footer .footer-container ul{
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: flex;
+}
+
+footer .footer-container ul li:not(:last-child){
+  margin-right: 10px;
+}
+
+footer .footer-container .copyright-text{
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+}

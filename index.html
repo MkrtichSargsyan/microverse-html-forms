@@ -5,79 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/app.css">
     <title>Intuit</title>
 </head>
 
 <body>
 
-    <!-- header -->
-    <header>
-        <div class="sign-in-header">
-            <div>
-                <h3>Already have an Intuit account?</h3>
-                <a href="#">I forgot my User ID or Password</a>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <div class="sign-in-header">
+                <div>
+                    <h3>Already have an Intuit account?</h3>
+                    <a href="#">I forgot my User ID or Password</a>
+                </div>
+                <button class="sign-in-button"><i class="fas fa-lock"></i> Sign-in</button>
             </div>
-            <button class="sign-in-button"><i class="fas fa-lock"></i> Sign-in</button>
-        </div>
-    </header>
+        </header>
 
-    <!-- main -->
-    <main>
+        <!-- main -->
+        <main>
+            <div class="main-container">
 
-        <div>logo</div>
-        <div class="form-header">
-            <h1 class="account-form-title">Create an Intuit account</h1>
-            <p class="account-form-subtitle">One account for everything Intuit, including Mint.
-                <a href="#" class="learn-more">Learn more</a>
-            </p>
-        </div>
+                <div class="logo">
+                    <img src="img/showcase-logo2.png" alt="">
+                </div>
 
-        <form action="" class="account-form">
-            <div class="form-control">
-                <label for="email">Email address</label>
-                <input type="email" id="email" name=email>
+                <div class="main-form">
+
+                    <div class="main-form-header">
+                        <h1 class="account-form-title">Create an Intuit account</h1>
+                        <p class="account-form-subtitle">One account for everything Intuit, including Mint.</p>
+                        <a href="#" class="learn-more">Learn more</a>
+                    </div>
+
+                    <form action="" class="account-form">
+                        <div class="form-control">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name=email>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="tel-number">Phone (recommended)</label>
+                            <input type="tel" id="tel-number" name="tel-number">
+                            <span class="tel-info">Standard call, messaging or data rates may apply.</span>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name=password>
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+
+                        <button type="submit" class="submit-form-button">
+                            Create Account
+                            <i class="fas fa-lock"></i>
+                        </button>
+
+                    </form>
+
+                    <p class="account-terms">By clicking Create account, you agree to our<br>
+                        <a href="#">Terms</a> and have read and acknowledge our <a href="">Privacy<br> Statement.</a>
+                    </p>
+
+                    <div class="main-form-footer">
+                        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+                                Use.</a></p>
+                    </div>
+                </div>
+
             </div>
+        </main>
 
-            <div class="form-control">
-                <label for="tel-number">Phone (recommended)</label>
-                <input type="tel" id="tel-number" name="tel-number">
-                <span>Standard call, messaging or data rates may apply.</span>
+        <!-- footer -->
+
+        <footer>
+
+            <div class="footer-container">
+
+                <ul>
+                    <li><a href="#">Legal</a> </li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+    
+                <p class="copyright-text">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                    registered trademarks of Intuit Inc.<br>
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                </p>
+
             </div>
+            
+        </footer>
 
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" id="password" name=password>
-                <i class="fas fa-lock-open"></i>
-            </div>
-
-            <button type="submit">
-                Create Account
-                <i class="fas fa-lock-open"></i>
-            </button>
-
-        </form>
-
-        <p class="account-terms">By clicking Create account, you agree to our
-            <a href="#">Terms</a> and have read and acknowledge our <a href="">Privacy Statement.</a></p>
-
-        <div class="account-form-footer">
-            <p>nvisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
-        </div>
-    </main>
-
-    <!-- footer -->
-    <footer>
-        <ul>
-            <li>Legal</li>
-            <li>Privacy</li>
-            <li>Security</li>
-        </ul>
-
-        <p>&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
-            registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-    </footer>
 
 </body>
 
