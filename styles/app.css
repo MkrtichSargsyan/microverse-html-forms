@@ -67,6 +67,12 @@ header .sign-in-header .sign-in-button {
   margin-left: 14px;
 }
 
+@media(max-width: 960px) {
+  header {
+    display: none;
+  }
+}
+
 
 /* ----------main---------------- */
 
@@ -165,8 +171,21 @@ main .main-container .main-form .account-terms{
   text-align: center;
 }
 
+@media(max-width: 576px) {
+  main .main-container img{
+    height: 90px;
+  }
+  
+  main .main-container .account-form .form-control input {
+    min-width: 260px;
+  }
 
-/* -------------account-fomr-footer------------------------ */
+  main .main-container .account-form .form-control .fas{
+    left: 230px;
+  }
+}
+
+/* -------------account-form-footer------------------------ */
 
 main .main-container .main-form .main-form-footer{
   background-color: #eceef1;
