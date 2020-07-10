@@ -18,7 +18,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #eceef1;
   color: #4c4c4c;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue";
+  font-family: "AvenirNext", Avenir;
 }
 
 a {
@@ -64,7 +64,7 @@ header .sign-in-header .sign-in-button {
   margin-left: 14px;
 }
 
-@media(max-width: 960px) {
+@media (max-width: 960px) {
   header {
     display: none;
   }
@@ -166,7 +166,7 @@ main .main-container .main-form .account-terms {
   text-align: center;
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   main .main-container img {
     height: 90px;
   }
@@ -188,7 +188,6 @@ main .main-container .main-form .main-form-footer {
   width: calc(100% + 60px);
   font-size: 10px;
   padding: 20px;
-  ;
   margin-top: 30px;
   margin-bottom: -30px;
   margin-left: -30px;
