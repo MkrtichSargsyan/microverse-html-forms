@@ -1,6 +1,6 @@
-# Embedding Images and Video
+# Html forms
 
-> This is a youtube homepage clone using HTML and CSS3.
+> This is a Mint.com signup page clone using HTML and CSS3.
 
 ## Screenshots of original website
 ### Screen size > 1024px
