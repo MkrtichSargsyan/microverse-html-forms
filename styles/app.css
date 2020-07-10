@@ -78,10 +78,40 @@ main .main-container {
   margin-bottom: 30px;
 }
 
-main .main-container img {
-  height: 100px;
-  margin-bottom: 10px;
+main .main-container .logos {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.8px;
 }
+
+main .main-container .logos .company-logo {
+  height: 90px;
+}
+
+main .main-container .logos .partners-logo {
+  display: flex;
+  align-items: center;
+}
+
+main .main-container .logos .partners-logo li {
+  line-height: 30px;
+  height: 30px;
+}
+
+main .main-container .logos .partners-logo li a {
+  color: #919191;
+}
+
+main .main-container .logos .partners-logo li:not(:last-child) {
+  margin-right: 15px;
+}
+
+main .main-container .logos .partners-logo img {
+  height: 25px;
+  vertical-align: middle;
+}
+
 
 main .main-container .main-form {
   border: 1px solid #c7c7c7;
@@ -166,10 +196,6 @@ main .main-container .main-form .account-terms {
 }
 
 @media (max-width: 576px) {
-  main .main-container img {
-    height: 90px;
-  }
-
   main .main-container .account-form .form-control input {
     min-width: 260px;
   }
