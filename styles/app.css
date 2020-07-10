@@ -103,7 +103,7 @@ main .main-container .partners-logo li a {
   color: #919191;
 }
 
-main .main-container .partners-logo li:not(:last-child) {
+main .main-container .partners-logo li:not(:last-of-type) {
   margin-right: 15px;
 }
 
@@ -232,7 +232,7 @@ footer .footer-container ul {
   display: flex;
 }
 
-footer .footer-container li:not(:last-child) {
+footer .footer-container ul li:not(:last-child) {
   margin-right: 10px;
 }
 
