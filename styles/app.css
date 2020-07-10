@@ -232,7 +232,7 @@ footer .footer-container ul {
   display: flex;
 }
 
-footer .footer-container ul li:not(:last-child) {
+footer .footer-container li:not(:last-child) {
   margin-right: 10px;
 }
 
