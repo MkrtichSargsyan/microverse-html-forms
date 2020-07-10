@@ -99,11 +99,11 @@ main .main-container .logos .partners-logo li {
   height: 30px;
 }
 
-main .main-container .logos .partners-logo li a {
+main .main-container .partners-logo li a {
   color: #919191;
 }
 
-main .main-container .logos .partners-logo li:not(:last-child) {
+main .main-container .partners-logo li:not(:last-child) {
   margin-right: 15px;
 }
 
