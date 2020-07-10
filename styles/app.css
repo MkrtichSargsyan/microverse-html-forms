@@ -71,48 +71,48 @@ header .sign-in-header .sign-in-button {
 
 /* ----------main---------------- */
 
-main .main-container {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
 }
 
-main .main-container .logos {
+main .logos {
   padding-bottom: 20px;
   text-align: center;
   font-size: 18px;
   letter-spacing: 1.8px;
 }
 
-main .main-container .logos .company-logo {
+main .logos .company-logo {
   height: 90px;
 }
 
-main .main-container .logos .partners-logo {
+main .logos .partners-logo {
   display: flex;
   align-items: center;
 }
 
-main .main-container .logos .partners-logo li {
+main .partners-logo li {
   line-height: 30px;
   height: 30px;
 }
 
-main .main-container .partners-logo li a {
+main .partners-logo li a {
   color: #919191;
 }
 
-main .main-container .partners-logo li:not(:last-of-type) {
+main .partners-logo li:not(:last-of-type) {
   margin-right: 15px;
 }
 
-main .main-container .logos .partners-logo img {
+main .logos .partners-logo img {
   height: 25px;
   vertical-align: middle;
 }
 
-main .main-container .main-form {
+main .main-form {
   border: 1px solid #c7c7c7;
   background-color: #fff;
   border-radius: 2px;
